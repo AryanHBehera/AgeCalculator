@@ -1,51 +1,29 @@
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aryan</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div>
-        <h1 class="header_text">Mo life re tuma jaga unmatched . tume jete bhabucha ta thu bi adhika mun tumaku bhala pauchi aw paibi for the rest of my life ...Do you love  me?</h1>
-      </div>
-      <p>
-        <a href="https://www.instagram.com/untoldcoding/">Soumya</a>
-      </p>
-      <div class="gif_container">
-        <img
-          src="ududu.gif"
-          alt="Cute animated illustration"
-        />
-      </div>
-      <div class="buttons">
-        <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
-        <button
-          class="btn"
-          id="noButton"
-          onmouseover="moveButton()"
-          onclick="moveButton()"
+    <section id="home" class="home">
+      <div class="home_section"></div>
+      <div id="container">
+        <div class="left"></div>
+        <div class="right"></div>
+        <a href="new.html"
+          ><p>
+            Happy Valentine's Day <br />
+
+            <span>Click Here</span>
+          </p></a
         >
-          No
-        </button>
-
-        <script>
-          function nextPage() {
-            window.location.href = "yes.html";
-          }
-
-          function moveButton() {
-            var x =
-              Math.random() *
-              (window.innerWidth -
-                document.getElementById("noButton").offsetWidth);
-            var y =
-              Math.random() *
-              (window.innerHeight -
-                document.getElementById("noButton").offsetHeight);
-            document.getElementById("noButton").style.left = `${x}px`;
-            document.getElementById("noButton").style.top = `${y}px`;
-          }
-        </script>
       </div>
-    </div>
-  </body>
+      <h1><span>I&nbsp;</span><span>You</span></h1>
+      <h2>
+        I have Something for you Bubu💖 <br />
+        Please go to I YOU And click on Valentine's Heart
+      </h2>
+    </section>
+    </body>
 </html>
